@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Birb Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Bird Brains</h1>
+    </header>
+    <main>
+        <section class="ready" id="start">
+            <button id="scores">View Feather Count</button>
+            <h2>Quiz Challenge</h2>
+            <p>
+                Try to collect as many feathers as you can<br />
+                Incorrect answers will boil your eggs and remaining time<br />
+                drops by ten seconds!
+            </p>
+            <button id="play">Start</button>
+        </section>
+        <section class="hidden" id="quiz">
+            <section id="timer">
+                <div id="answer"></div>
+                <div><span id="remaining"></span> seconds remaining</div>
+            </section>
+            <div class="hero" id="quest-cont">
+                <div class="question" id="title">Question </div>
+                <div id="content"></div>
+            </div>
+            <div id="ans-cont">
+                <button class="ans-opt" id="ans-a"></button>
+                <button class="ans-opt" id="ans-b"></button>
+                <button class="ans-opt" id="ans-c"></button>
+                <button class="ans-opt" id="ans-d"></button>
+            </div>
+        </section>
+        <section class="hidden" id="end">
+            <h2>Im-peck-able!</h2>
+            <p>Your feather count is <span id="final"></span>.</p>
+            <form id="feathers">
+                <label for="in-submit">Enter initials: </label><input type="text" id="in-input" maxlength="3" />
+                <button id="submit-btn">Submit</button>
+            </form>
+        </section>
+        <section class="hidden" id="score-page">
+            <button id="back">Back</button>
+            <button id="reset">Reset Scores</button>
+            <div id="scores">
+                <h2>High Scores</h2>
+                <ol id="list"></ol>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
