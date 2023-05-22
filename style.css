@@ -42,7 +42,7 @@ h1 {
     display: none !important;
 }
 
-#start-screen {
+#start {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +61,7 @@ h1 {
     margin: 0 25px;
 }
 
-#start-game {
+#play {
     letter-spacing: 2px;
     background: var(--background-color-linear-gradient-gold);
     color: var(--color-blueviolet);
@@ -70,11 +70,11 @@ h1 {
     border-radius: 5px;
 }
 
-#time-left {
+#remaining {
     font-size: 1.5em;
 }
 
-#question-container {
+#quest-cont {
     display: flex;
     flex-direction: column;
     flex: 1 1 920px;
@@ -90,7 +90,7 @@ h1 {
     margin: 0 25px;
 }
 
-#question-title {
+#title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,13 +98,13 @@ h1 {
     letter-spacing: 1px;
 }
 
-#question-content {
+#question {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start; 
 }
 
-#answers-container {
+#ans-cont {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -113,7 +113,7 @@ h1 {
     padding: 25px;
 }
 
-.answer-option {
+.ans-opt {
     display: flex;
     flex: 1 1 350px;
     max-width: 450px;
@@ -129,14 +129,14 @@ h1 {
     padding: 10px;
 }
 
-.answer-option:hover {
+.ans-opt:hover {
     color: var(--color-dark-purple);
     text-shadow: var(--text-shadow-color-black);
     background-color: var(--color-wisteria);
     box-shadow: var(--box-shadow-color-hover);
 }
 
-#timebox {
+#timer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -151,7 +151,7 @@ h1 {
     margin: 10px 25px;
 }
 
-#end-screen {
+#end {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -191,10 +191,10 @@ h1 {
     text-decoration: none;
 }
 
-#high-scores,
-#back-btn,
-#submit-btn,
-#reset-score {
+#scores,
+#back,
+#submit,
+#reset {
     letter-spacing: 1px;
     background: var(--background-color-linear-gradient-gold);
     color: var(--color-blueviolet);
@@ -203,7 +203,7 @@ h1 {
     border-radius: 5px;
 }
 
-#scores-form {
+#feathers {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;

@@ -148,7 +148,7 @@ function quizTimer(playTime){
 function startQuiz(){
     start.classList.remove("hidden");
     quiz.classList.add("hidden");
-    scores.classList.add("hidden");
+    scoresPage.classList.add("hidden");
     end.classList.add("hidden");
 }
 
@@ -157,7 +157,7 @@ function playQuiz(){
 
     start.classList.add("hidden");
     quiz.classList.remove("hidden");
-    scores.classList.add("hidden");
+    scoresPage.classList.add("hidden");
     end.classList.add("hidden");
     
     // set timer
@@ -181,7 +181,7 @@ function nextQuestion(){
     shuffleAnswerArray(newAnswerArr);
     
     // shuffle placement of options
-    questionContent.textContent = questions[currentQuestion].question;
+    question.textContent = questions[currentQuestion].question;
     answerA.textContent = newAnswerArr[0];
     answerB.textContent = newAnswerArr[1];
     answerC.textContent = newAnswerArr[2];
@@ -189,10 +189,7 @@ function nextQuestion(){
 
 }
 
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-// JavaScript implementation of the Durstenfeld shuffle, an optimized version of Fisher-Yates
-// this takes newAnswerArr as a parameter
-// it shuffles the values in the array
+
 function shuffleAnswerArray(newAnswerArr) {
     for (var i = newAnswerArr.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -241,12 +238,12 @@ function handleFormSubmit(event){
 
 // prints results to screen
 function renderScoresToList(scores){
-    scoresListEl.innerHTML = "";
+    listEl.innerHTML = "";
 
     for (var i = 0; i < scores.length; i++) {
         var listItem = document.createElement("li");
         listItem.textContent = scores[i].initials + " " + scores[i].score;
-        scoresListEl.append(listItem);
+        listEl.append(listItem);
     }
     
 }
@@ -255,7 +252,7 @@ function renderScoresToList(scores){
 function goScoreScreen(){
     start.classList.add("hidden");
     quiz.classList.add("hidden");
-    scores.classList.remove("hidden");
+    scoresPage.classList.remove("hidden");
     end.classList.add("hidden");
 
     renderScoresToList(scoresArr);
@@ -264,8 +261,8 @@ function goScoreScreen(){
 function goEndScreen(){
     start.classList.add("hidden");
     quiz.classList.add("hidden");
-    scores.classList.add("hidden");
-    endS.classList.remove("hidden");
+    scoresPage.classList.add("hidden");
+    end.classList.remove("hidden");
 
     clearInterval(quizLength);
 
@@ -367,7 +364,7 @@ answerD.addEventListener("click", function(){
 submit.addEventListener("click", handleFormSubmit);
 
 // goes to scores screen when button clicked
-highScoresEl.addEventListener("click", goScoreScreen);  
+scoresEl.addEventListener("click", goScoreScreen);  
 
 // goes to start screen when button clicked
 back.addEventListener("click", startQuiz);
