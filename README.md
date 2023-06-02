@@ -42,22 +42,22 @@ Answer a multiple choice quiz.
 <br />
 
 ### Quiz Start Screen
-![Tea Quiz Start Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
+![Bird Brains Start Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
 
 <br />
 
 ### Quiz Question Screen
-![Tea Quiz Question Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
+![Bird Brains Question Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
 
 <br />
 
 ### Quiz End Screen
-![Tea Quiz End Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
+![Bird Brains End Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
 
 <br />
 
 ### Quiz Scores Screen
-![Tea Quiz Scores Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
+![Bird Brains Scores Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad)
 
 <br />
 
