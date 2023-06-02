@@ -42,6 +42,9 @@ Answer a multiple choice quiz.
 ![127 0 0 1_5503_Quiz-Quiz_index html(iPad) (3)](https://github.com/ThalVal/Quiz-Quiz/assets/125854665/7bbab3d7-e946-4785-a150-42202f249e45)
 <br />
 
+##Deployed Site
+https://thalval.github.io/Quiz-Quiz/
+
 
 ## License
 
