@@ -42,23 +42,22 @@ Answer a multiple choice quiz.
 <br />
 
 ### Quiz Start Screen
-![Bird Brains Start Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad))
+![127 0 0 1_5503_Quiz-Quiz_index html(iPad)](https://github.com/ThalVal/Quiz-Quiz/assets/125854665/4376be4c-6b22-4c3b-82b1-5c3f0f30526d)
 
 <br />
 
 ### Quiz Question Screen
-![Bird Brains Question Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad))
+![127 0 0 1_5503_Quiz-Quiz_index html(iPad) (1)](https://github.com/ThalVal/Quiz-Quiz/assets/125854665/1d5074ee-2399-4d10-b75f-3700c37bcb66)
 
 <br />
 
 ### Quiz End Screen
-![Bird Brains End Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad))
+![127 0 0 1_5503_Quiz-Quiz_index html(iPad) (2)](https://github.com/ThalVal/Quiz-Quiz/assets/125854665/f1d91345-eaae-49bf-a373-9bb49dce0331)
 
 <br />
 
 ### Quiz Scores Screen
-![Bird Brains Scores Screen](assets/127.0.0.1_5503_Quiz-Quiz_index.html(iPad))
-
+![127 0 0 1_5503_Quiz-Quiz_index html(iPad) (3)](https://github.com/ThalVal/Quiz-Quiz/assets/125854665/7bbab3d7-e946-4785-a150-42202f249e45)
 <br />
 
 
